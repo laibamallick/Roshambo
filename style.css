@@ -55,8 +55,7 @@ img{
 .choices{
     display: flex;
     justify-content: center;
-    padding-top: 2%;
-    padding-left: 3%;
+    padding-top: 0.5%;
 
 }
 
@@ -64,13 +63,13 @@ img{
 @media screen and (max-width: 768px) {
 
     .choice{
-        height: 150px;
-        width: 150px;
+        height: 100px;
+        width: 100px;
         overflow: hidden;
     }
     img{
-        height: 100px;
-        width: 100px;
+        height: 70px;
+        width: 70px;
         border-radius: 160px;
         background-color: #f7f7f7;
         object-fit: cover;
@@ -84,12 +83,10 @@ img{
         justify-content: center;
         align-items: center;
         margin-top: 0;
-        padding-right: 15px;
     }
     .msg-container {
         display: flex;
         justify-content: center;
-        margin-right: 15px;
     }
   }
 
@@ -98,7 +95,7 @@ img{
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    padding-left: 40px;
+    padding-left: 10px;
 }
 
 #user-score, #comp-user {
@@ -115,7 +112,6 @@ img{
 .msg-container {
     display: flex;
     justify-content: center;
-    margin-left: 40px;
 }
   
 
