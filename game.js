@@ -6,6 +6,10 @@ const msg = document.querySelector("#moveBtn");
 const scoreUser = document.querySelector("#user-score");
 const scoreComp = document.querySelector("#comp-user");
 
+if (userScore===0  & compScore ===0){
+    msg.innerText = "Play your move by clicking on images";
+    msg.style.marginRight = '10px';
+}
 
 const compChoice = () => {
     const options = ["rock","paper","scissors"];
@@ -26,6 +30,7 @@ const showWinner = (userWin, userChoice, getComputerChoice) => {
         scoreUser.innerText = userScore;
         console.log("You Won!");
         msg.innerText = `You Won! Your ${userChoice} beated ${getComputerChoice}`;
+        msg.style.marginRight = '10px';
         msg.style.backgroundColor ="green";
         msg.style.color = "white";
     }else {
@@ -33,6 +38,7 @@ const showWinner = (userWin, userChoice, getComputerChoice) => {
         scoreComp.innerText = compScore;
         console.log("You lose!");
         msg.innerText = `You Lose! Computer's ${getComputerChoice} beated ${userChoice}`;
+        msg.style.marginRight = '10px';
         msg.style.backgroundColor ="red";
         msg.style.color = "white";
     }
