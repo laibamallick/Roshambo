@@ -80,25 +80,27 @@ img{
         border-radius: 160px;
         background-color: #f7f7f7;
         object-fit: cover;
+
     }
     .choices {
       flex-direction: column; /* Stack images vertically on smaller screens */
       align-items: center; /* Centers the image vertically */
+      margin-left: 10px;
     }
     .score-board{
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 0;
+        margin-left: 10px;
     }
 
     .msg-container {
         display: flex;
         justify-content: center;
+        margin-left: 10px;
     }
-    #moveBtn {
-        background-color: aqua ;
-    }
+
   }
 
 .score-board{
