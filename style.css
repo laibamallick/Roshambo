@@ -34,7 +34,7 @@ html {
         overflow-x: hidden;
     }
     .container-fluid h1 {
-        padding-left: 20px; /* Adjust the left margin as needed */
+        padding-left: 15px; /* Adjust the left margin as needed */
     }
 }
 .choice{
@@ -96,20 +96,8 @@ img{
         display: flex;
         justify-content: center;
     }
-    #moveBtn{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: white;
-        color: #121313;
-        display: inline-block;
-        padding: 15px;
-        margin-left: 40px;
-        margin-right: 10px;
-        font-size: 14px;
-        font-weight: 500;
-        border-radius: 30px;
-    
+    #moveBtn {
+        background-color: aqua ;
     }
   }
 
