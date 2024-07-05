@@ -27,7 +27,7 @@ html {
 
     /* Allow horizontal scroll on small screen size */
     body{
-        overflow-x: auto;
+        overflow-x: hidden;
     }
 }
 .choice{
