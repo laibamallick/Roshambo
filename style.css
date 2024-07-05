@@ -14,6 +14,10 @@ body{
     font-weight: 1000;
     text-align: center;
 }
+.container-fluid h1 {
+    padding-left: 0px;
+}
+
 
 /* Heading size adjust according to screen size */
 html {
@@ -28,6 +32,9 @@ html {
     /* Allow horizontal scroll on small screen size */
     body{
         overflow-x: hidden;
+    }
+    .container-fluid h1 {
+        padding-left: 20px; /* Adjust the left margin as needed */
     }
 }
 .choice{
@@ -84,9 +91,25 @@ img{
         align-items: center;
         margin-top: 0;
     }
+
     .msg-container {
         display: flex;
         justify-content: center;
+    }
+    #moveBtn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        color: #121313;
+        display: inline-block;
+        padding: 15px;
+        margin-left: 30px;
+        margin-right: 10px;
+        font-size: 14px;
+        font-weight: 500;
+        border-radius: 30px;
+    
     }
   }
 
