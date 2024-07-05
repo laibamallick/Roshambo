@@ -6,6 +6,10 @@ const msg = document.querySelector("#moveBtn");
 const scoreUser = document.querySelector("#user-score");
 const scoreComp = document.querySelector("#comp-user");
 
+if (userScore === 0 & compScore === 0){
+    msg.innerText = "Play your move by clicking on images";
+}
+
 const compChoice = () => {
     const options = ["rock","paper","scissors"];
     const randomOption = Math.floor(Math.random() * 3);
